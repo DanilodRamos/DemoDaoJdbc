@@ -4,8 +4,7 @@ import java.util.List;
 
 import model.entities.Seller;
 
-public class SellerDao {
-	public interface DepartmentDao {
+	public interface SellerDao {
 		void insert(Seller obj);
 		void update(Seller obj);
 		void delete(Seller obj);
@@ -14,4 +13,4 @@ public class SellerDao {
 		List<Seller> findAll();
 			
 		}
-}
+
